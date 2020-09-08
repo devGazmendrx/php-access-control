@@ -16,6 +16,8 @@ class PHPAccessControlHelper{
                 self::$pages[$key] = $value;
             }
         }
+
+        return true;
     }
 
     public static function verify($page){
